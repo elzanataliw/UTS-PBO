@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BankManagement
 {
-    struct banner
+    class banner
     {
         private void intro()
         {

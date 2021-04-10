@@ -4,12 +4,11 @@ using System.Text;
 
 namespace BankManagement
 {
-    class mainmenu
+    class mainmenu : banner
     {
         public void menu()
         {
             int n;
-            banner show = new banner();
             account bank = new account();
 
             do
@@ -30,28 +29,28 @@ namespace BankManagement
                     case 1:
                         {
                             Console.Clear();
-                            show.load();
+                            load();
                             bank.accountdep();
                             break;
                         }
                     case 2:
                         {
                             Console.Clear();
-                            show.load();
+                            load();
                             bank.accountdraw();
                             break;
                         }
                     case 3:
                         {
                             Console.Clear();
-                            show.load();
+                            load();
                             bank.accountreport();
                             break;
                         }
                     case 4:
                         {
                             Console.Clear();
-                            show.load();
+                            load();
                             bank.createaccount();
                             break;
                         }
